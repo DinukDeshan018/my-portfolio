@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <ul class="navlist">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="port"><a href="#portfolio">PortFolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Dinuk Deshan</h1>
+            <h2>I'M 
+
+            <span style="--i:4;" data-text="Software Engineer">Software Engineer</span>
+            <span style="--i:3;" data-text="Springboot Developer">Springboot Developer</span>
+            <span style="--i:2;" data-text="YouTuber">YouTuber</span>
+            <span style="--i:1;" data-text="Blogger">Blogger</span>
+
+            </h2>
+            <p>Welcome to my portfolio! I am a passionate Software Engineer and Springboot Developer dedicated to building scalable, robust backend systems and modern full-stack web applications. I also love sharing my technical knowledge and experiences as a YouTuber and Blogger.</p>
+            <div class="btn-sci">
+                <a href="Dinuk_Deshan_CV.pdf" class="btn" download>Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/DinukDeshan018" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/dinuk-deshan-917ab2384" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="image-box">
+                <div class="image-item">
+                    <img src="WhatsApp Image 2026-05-24 at 19.44.19.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Engineer & Developer</h3>
+            <p>I am a passionate Software Engineer and Springboot Developer with a keen interest in building robust backend systems and full-stack web applications. With hands-on experience in modern technologies like Java, Spring Boot, Angular, and cloud platforms like AWS, I love solving complex problems and delivering scalable software solutions.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-content">
+            <div class="skills-column">
+                <h3 class="title">Frontend Development</h3>
+                <div class="skills-box">
+                    <div class="skills-content-inner">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Angular <span>75%</span></h3>
+                            <div class="bar"><span style="width: 75%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-column">
+                <h3 class="title">Backend & Cloud</h3>
+                <div class="skills-box">
+                    <div class="skills-content-inner">
+                        <div class="progress">
+                            <h3>Java Spring Boot <span>85%</span></h3>
+                            <div class="bar"><span style="width: 85%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>MySQL <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>AWS & Docker <span>70%</span></h3>
+                            <div class="bar"><span style="width: 70%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive, modern, and interactive full-stack web applications using the latest technologies like Angular and React.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Backend Development</h3>
+                <p>Designing and building robust, scalable APIs and microservices using Java Spring Boot, MySQL, and cloud databases.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cloud' ></i>
+                <h3>Cloud & DevOps</h3>
+                <p>Deploying and managing applications on AWS using Docker, Docker Compose, and Nginx for optimal performance and reliability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <!-- Project 1 -->
+            <div class="portfolio-box">
+                <img src="https://placehold.co/600x400/1f242d/7cf03d?text=AI+Resume+Matcher" alt="AI Resume Matcher">
+                <div class="portfolio-info">
+                    <h4>AI Resume Matcher</h4>
+                    <p>A full-stack application using Spring Boot, Angular, MySQL, and Google Gemini AI to intelligently analyze and match resumes against job descriptions.</p>
+                    <a href="http://13.60.205.93" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="portfolio-box">
+                <img src="https://placehold.co/600x400/1f242d/7cf03d?text=AI+Chatbot" alt="AI Chatbot Project">
+                <div class="portfolio-info">
+                    <h4>AI Chatbot Project</h4>
+                    <p>An intelligent AI chatbot featuring a robust backend and an interactive frontend interface built for seamless user communication and query handling.</p>
+                    <a href="https://github.com/DinukDeshan018/ai-chatbot-project" target="_blank" class="btn">View GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="mailto:dinukdeshan12345@gmail.com" method="POST" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" name="Full Name" placeholder="Full Name" required>
+                <input type="email" name="Email Address" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                <input type="text" name="Subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Dinuk Deshan | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
